@@ -1,1 +1,10 @@
-.cell{background: red; border:5px solid white; padding: 3px solid white}
+/* *{outline:1px solid red;}*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|PT+Serif');
+
+h1,h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif;}
+body {font-family: 'PT Serif', serif;}
+h2 {font-size: 1.5rem;}
+p {line-height: 1.25rem}
+
+/* comments */
