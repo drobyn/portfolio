@@ -7,4 +7,64 @@ body {font-family: 'PT Serif', serif;}
 h2 {font-size: 1.5rem;}
 p {line-height: 1.25rem}
 
+h1 {
+  padding-top: 20px;
+  padding-left: 15px;
+ text-align: left;
+ font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1em;
+}
+
+nav {
+  text-align: center;
+  float: inherit;
+}
+
+nav li {
+  color: black;
+  text-align: center;
+  float: inherit;
+}
+
+nav ul {
+  color: black;
+  float: left;
+
+}
+
+nav {
+	border-bottom: 1px solid rgb(178, 178, 178);
+	margin: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav ul {
+	font-weight: 300;
+	margin-left: 40px;
+	font-size: 0.8em;
+	color: black;
+}
+nav li {
+	display: inline;
+	margin-right: 22px;
+	color: black;
+	margin-left: 40px;
+}
+nav a:link, nav a:visited {
+	text-decoration: none;
+	padding: 2px 6px;
+	margin: 1px;
+	color: black;
+}
+nav a:hover {
+	border-bottom: 1px solid grey;
+	text-decoration: none;
+  color: red;
+}
+
 /* comments */
